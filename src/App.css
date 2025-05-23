@@ -1,0 +1,116 @@
+body{
+  background-color: #1f1e1e;
+  color: white;
+  overflow: hidden;
+}
+h1{
+  text-align: center;
+}
+.todo_wrapper{
+  background-color: #333534;
+  padding: 2%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y:auto;
+  box-shadow: 0 3px 10px rgb(0, 230, 122);
+}
+.todo_input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgb(77, 76, 76);
+}
+.todo_input_item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+
+}
+.todo_input_item label{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.todo_input_item input{
+  padding: 8px;
+  border: none; 
+  width: 250px;
+}
+.todo_input_item input:focus{
+  outline: 2px solid rgb(0, 230, 122);
+}
+.primarybtn{
+  background-color: rgb(0, 230, 122);
+  color: white;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  margin-top: 27px;
+  padding: 7px 10px;
+}
+.primarybtn:hover{
+  background-color: rgb(4, 194, 105);
+
+}
+.secbtn{
+  background-color: rgb(71, 71, 71);
+  color: white;
+  width: fit-content;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  margin-top: 27px;
+  padding: 7px 10px;
+}
+.active{
+  background-color: rgb(0, 230, 122);
+}
+.todo_list{
+  display:flex;
+  flex-direction: column;
+}
+.btn_area{
+  margin-bottom: 15px;
+}
+.todo_list_item{
+  background-color: rgb(44,44,44);
+  padding: 25px;
+  padding: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 5px rgb(42, 42, 42);
+}
+.todo_list_item h3{
+  font-size: 20px;
+  color: rgb(0, 230, 122);
+  font-weight: bold;
+  margin: 0;
+}
+.todo_list_item p{
+  font-size: 15px;
+  color: rgb(161, 161, 161);
+}
+.delicon{
+  font-size: 30px;
+  cursor: pointer;
+}
+.delicon:hover{
+  color: red;
+}
+.checkicon{
+  font-size: 25px;
+  color: rgb(0, 230, 122);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.checkicon:hover{
+  color: rgb(4, 194, 104);
+}
